@@ -29,34 +29,11 @@ Place the `CMAPSSData/` folder (containing `train_FD001.txt`, `test_FD001.txt`, 
 
 ```
 .
-├── notebooks/
-│   └── cmapss_rul_prediction.ipynb   # EDA, preprocessing, DL model, Bayesian UQ, SHAP, RAG
-├── reports/
-│   ├── Final_Project_Report.docx
-│   ├── Final_Presentation.pptx
-│   └── Proposal.docx
+├── cmapss_rul_prediction.ipynb   # EDA, preprocessing, DL model, Bayesian UQ, SHAP, RAG
+├── Final_Project_Report.docx
 ├── requirements.txt
 └── README.md
 ```
-
-## Getting started
-
-1. Clone the repository and set up a virtual environment:
-
-   ```bash
-   git clone https://github.com/<your-username>/CMAPSS-RUL-Prediction.git
-   cd CMAPSS-RUL-Prediction
-   python3 -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-2. Download the C-MAPSS dataset (see [Data](#data)) and place `CMAPSSData/` where the notebook expects it.
-
-3. Run the notebook:
-
-   ```bash
-   jupyter notebook notebooks/cmapss_rul_prediction.ipynb
-   ```
 
 ## Requirements
 
